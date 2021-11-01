@@ -23,7 +23,7 @@
         <activity android:name=".Receipt.CreateReceiptActivity" />
         <activity android:name=".Refund.RefundOrderActivity" />
         <activity android:name=".Signup.SignupActivity" />
-        <activity android:name=".start.StartActivity">
+        <activity android:name=".start.StartActivity" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
