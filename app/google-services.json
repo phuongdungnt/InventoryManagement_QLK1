@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "888477047342",
+    "project_id": "inventorymanagement-8367f",
+    "storage_bucket": "inventorymanagement-8367f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888477047342:android:5cb95044c64516762f5dbf",
+        "android_client_info": {
+          "package_name": "com.ntpd.inventorymanagement_qlk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888477047342-i2lrapleringnhnafrun8bur9rjqjsji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ntpd.inventorymanagement_qlk",
+            "certificate_hash": "d5245043cfbed892839daaf0d9952da22e3abad7"
+          }
+        },
+        {
+          "client_id": "888477047342-83huck0rgdeclbgae84t5grbh52edfad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPHIGqSCgOLD88WXtLYmTtZECkPGdQSmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888477047342-83huck0rgdeclbgae84t5grbh52edfad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

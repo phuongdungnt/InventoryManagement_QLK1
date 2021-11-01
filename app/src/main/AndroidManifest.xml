@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ntpd.inventorymanagement_qlk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventoryManagement_QLK">
+        <activity android:name=".adapter.GoodsAdapterActivity"></activity>
+        <activity android:name=".Goods.GoodsActivity" />
+        <activity android:name=".Goods.DeatailGoodsActivity" />
+        <activity android:name=".Goods.CreateGoodsActivity" />
+        <activity android:name=".Login.LoginActivity" />
+        <activity android:name=".Order.OrdersActivity" />
+        <activity android:name=".Order.OrderInfoActivity" />
+        <activity android:name=".Order.CreateOrderActivity" />
+        <activity android:name=".Profile.EditProfileActivity" />
+        <activity android:name=".Receipt.GoodReceiptActivity" />
+        <activity android:name=".Receipt.DetailReceiptActivity" />
+        <activity android:name=".Receipt.CreateReceiptActivity" />
+        <activity android:name=".Refund.RefundOrderActivity" />
+        <activity android:name=".Signup.SignupActivity" />
+        <activity android:name=".start.StartActivity" />
+        <activity android:name=".start.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

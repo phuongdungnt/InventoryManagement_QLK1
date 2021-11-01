@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightpurple"
+    tools:context=".Signup.SignupActivity">
+
+    <ImageView
+        android:id="@+id/signup_logo"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic"
+        android:text="Create account !" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/icretangle"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/email_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginStart="32dp"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:hint="Username"
+        android:background="@drawable/icretangle"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"/>
+
+    <TextView
+        android:id="@+id/name_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginStart="32dp"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:hint="Password"
+        android:background="@drawable/icretangle"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"/>
+
+    <TextView
+        android:id="@+id/pass_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginStart="32dp"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/et_repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:hint="Re-type password"
+        android:background="@drawable/icretangle"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"/>
+
+    <TextView
+        android:id="@+id/repass_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginStart="32dp"
+        android:textColor="@color/red"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_verify"
+            android:layout_width="199dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="32dp"
+            android:layout_weight="1"
+            android:background="@drawable/icretangle"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="16dp"
+            android:padding="16dp"
+            android:ems="10"
+            android:hint="  Verify code"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="Gửi mã"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="@drawable/icbtnretangle"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/btn_back_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Login"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="@drawable/icbtnretangle"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
